@@ -5,6 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Cake.Telegram</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageProjectUrl>https://github.com/Sirenstlrck/ThinCakeTelegram</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Sirenstlrck/ThinCakeTelegram</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
