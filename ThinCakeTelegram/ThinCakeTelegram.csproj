@@ -5,10 +5,22 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Cake.Telegram</RootNamespace>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <PackageProjectUrl>https://github.com/Sirenstlrck/ThinCakeTelegram</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Sirenstlrck/ThinCakeTelegram</RepositoryUrl>
+        <Title>ThinCakeTelegram</Title>
+        <Authors>Sirenstlrck</Authors>
+        <AssemblyVersion>1.1.0</AssemblyVersion>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\LICENSE">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Cake.Core" Version="5.0.0" />
